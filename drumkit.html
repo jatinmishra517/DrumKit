@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>home page</title>
+        <link rel="stylesheet" type="text/css" href="drumkit.css">
+
+    </head>
+    <body>
+        <img src="images/logo1.png" class="logo" width="70px" height="50px">
+        <div class="navbar">
+            <ul>
+                <li><a href="mailto:jatin.20204090@mnnit.ac.in" style="color:#fff;">CONTACT US</a></li>
+                  
+            </ul>
+
+        </div>
+        <div class="introbox">
+            <h1>DrumsForDummies</h1>
+            <img src="images/snare.jfif" style="margin-left: 17px;margin-right: 10px;" id="snare"></img>
+            <img src="images/base drum.jfif" style="margin-left: 55px;margin-right: 55px;" id="bassdrum"></img>
+            <img src="images/crashcymbal.jfif" style="margin-left: 55px;margin-right: 55px; height: 230px;" id="crashcymbal"></img>
+            <img src="images/hi hat.png" style="margin-left: 55px;margin-right: 55px;" id="hihat"></img>
+            <br><br><br>
+            <input type="number" id="snaren" style="margin-left: 45px;margin-right: 10px;">
+            
+            <input type="number" id="bassdrumn" style="margin-left: 105px;margin-right: 55px;">
+            <input type="number" id="crashcymbaln" style="margin-left: 80px;margin-right: 55px;">
+            <input type="number" id="hihatn" style="margin-left: 80px;margin-right: 55px;">
+            <br>
+            <h3></h3><pre>                  S                                      U                                         A                                          H</pre></h3>
+            
+
+            <audio controls id="hihataudio" hidden>
+                <source src="sounds/hihat.mp3" type="audio/mp3">
+              hihat
+            </audio>
+            <audio controls id="bassdrumaudio" hidden>
+                <source src="sounds/basedrum.mp3" type="audio/mp3">
+              basedrum
+            </audio>
+            <audio controls id="snareaudio" hidden>
+                <source src="sounds/snare.mp3" type="audio/mp3">
+              snare
+            </audio>
+            <audio controls id="crashcymbalaudio" hidden>
+                <source src="sounds/crashcymbal.wav" type="audio/wav">
+              crashcymbal
+            </audio>
+
+        </div>
+        <script src="drumkit.js"></script>
+
+    </body>
+</html>
