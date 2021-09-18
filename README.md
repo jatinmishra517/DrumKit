@@ -1,5 +1,5 @@
 # DrumKit
-basic javascript
+make beats using keyboard.
 <html>
   <head>
   </head>
